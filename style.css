@@ -1,0 +1,117 @@
+:root{
+  --bg-color: #D23955;
+  --card-bg: #f6f6f6;
+  --font-light: #a1a1a1;
+  --font-dark: #0b0e2c;
+  --accent: #818cff;
+}
+*{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+}
+
+header {
+  background-color: var(--bg-color);
+  color: var(--card-bg);
+  height: 50vh;
+  padding-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  font-size: 48px;
+}
+header p{
+  font-size: 18px;
+}
+
+main{
+  display: flex;
+  padding: 0 100px;
+  justify-content: space-between;
+  position: relative;
+  column-gap: 20px;
+  top: -160px;
+}
+.card{
+  background-color: var(--card-bg);
+  border: 0 solid black;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.principal{
+  padding: 0;
+  position: relative;
+  top: -20px;
+  height: 450px;
+}
+.principal h4 {
+  background-color: var(--bg-color);
+  border: 0 solid red;
+  border-radius: 15px;
+  padding: 5px 10px;
+  color: var(--card-bg);
+}
+.top{
+  color: var(--bg-color);
+  font-weight: 600;
+  border-top: 0 solid red;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 25px 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--accent);
+}
+.principal h2, .principal p, .principal ul, .principal a{
+  padding: 5px 30px;
+}
+
+strong{
+  font-size: 35px;
+  color: var(--font-dark);
+}
+h2{
+  padding: 25px 0;
+  color: var(--font-light);
+  font-weight: 400;
+}
+
+.card p{
+  color: var(--font-light);
+  padding-bottom: 30px;
+}
+.card ul {
+  color: var(--font-light);
+  font-weight: 600;
+  margin-bottom: 30px;
+
+}
+.fa-check{
+  color: green;
+  padding-right: 8px;
+}
+a.button {
+  border: 1px solid var(--bg-color);
+  border-radius: 10px;
+  padding: 5px 35px;
+  color: var(--bg-color);
+  margin: 40px 100px;
+  position: absolute;
+  bottom: 0;
+}
+.principal a.button{
+  background-color: var(--bg-color);
+  color: var(--card-bg);
+  position: absolute;
+  bottom: -20px;
+  margin-bottom: 40px;
+}
